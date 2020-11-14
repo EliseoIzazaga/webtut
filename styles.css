@@ -17,12 +17,13 @@ h3  {
     font-family: fantasy;
     font-size: 300%;
 }
-h5  {
-    color:royalblue;
+h4  {
+    text-align: center;
+    color:rgb(48, 49, 51);
     font-family: fantasy;
     font-size: 300%;
 }
-h6 {
+h6  {
     color:goldenrod;
     font-family: fantasy;
     font-size: 300%;
@@ -33,4 +34,11 @@ p   {
     color: rgb(0, 60, 255);
     font-family: verdana;
     font-size: 200%;
+}
+p2  {
+    border: 8px solid rgb(0, 0, 0);
+    background-color: rgb(59, 60, 61);
+    color: rgb(100, 55, 55);
+    font-family: verdana;
+    font-size: 100%
 }
