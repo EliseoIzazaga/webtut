@@ -1,5 +1,6 @@
 body    {
-    background-color: maroon;
+    background-image: url(images/Backgrounds/galaxybg.jpg)
+    /*background-color: maroon;*/
 }
 h1  {
     text-align: center;
@@ -28,17 +29,18 @@ h6  {
     font-family: fantasy;
     font-size: 300%;
 }
-p   {
+#p1   {
     border: 20px solid rgb(190, 76, 0);
     background-color: rgb(17, 15, 15);
     color: rgb(0, 60, 255);
     font-family: verdana;
     font-size: 200%;
 }
-p2  {
-    border: 8px solid rgb(0, 0, 0);
-    background-color: rgb(59, 60, 61);
-    color: rgb(100, 55, 55);
+#p2  {
+    border: 10px solid rgb(228, 212, 212);
     font-family: verdana;
-    font-size: 100%
+    background-color: rgb(48, 46, 46);
+    color: rgb(228, 212, 212);
+    font-family: verdana;
+    font-size: 200%
 }
