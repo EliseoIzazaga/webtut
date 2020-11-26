@@ -1,9 +1,10 @@
-body{
+body {
     background-image: url(images/Backgrounds/galaxybg.jpg)
 }
-h1{
+#Title {
     text-align: center;
     color: gray;
     font-family: fantasy;
     font-size: 300%;
 }
+
