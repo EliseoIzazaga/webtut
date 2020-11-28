@@ -1,36 +1,74 @@
+/*******beginning of the general stuff of the page********/
 * {
 margin:0;
 padding: 0;
 font-family: 'Times New Roman', Times, serif;
 }
 a{
-    
+   /* this is an html comment
+   the a referrers to a link, 
+   this will end up bring a cpp program
+   on its own*/
+   text-decoration: none;
+   color: inherit;
 }
+a:active{
+    color: rgb(71,193, 237);
+}
+.text-center{
+    text-align: center;
+}
+body{
+    color: rgb(243, 243, 243);
+    background-color: rgb(20, 20, 20);
+}
+
+/*********end of general*********/
+
+
+
+
+/********beginning of navbar styling*************/
 .navbar{
     /*border: red solid 2px;*/
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     padding: 10px;
     position: sticky;
     top: 0;
     border-bottom: 2px solid rgb(0,50,70);
-    background-color: rgba(0,0,0.99);
+    /*background-color: rgb(44, 44, 44);*/
+    background-image: url(images/Backgrounds/galaxybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .navbar .logo-container{
     flex-grow: 3;
     /*border:green 2px solid;*/
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .navbar .nav-items-container{
-   /*border: solid blue 2px;*/ 
+   /*border: solid blue 2px;*/
    flex-grow: 5;
    display: flex;
-   justify-content: center; 
+   justify-content: flex-end; 
 }
 .navbar .nav-items-container .nav-item{
+    /*border: solid red 2px;*/
     margin: 10px;
 }
 .navbar .nav-item-conatiner .nav-item:hover{
-    color:rgb(71,193,237)
+    color:rgb(197, 197, 197)
 }
+/********end nav bar********/
+
+
+/********section container**********/
+
+/******end section container*********/
+
+
+
