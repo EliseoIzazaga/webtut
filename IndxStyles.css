@@ -67,7 +67,7 @@ body{
 
 
 /********section container**********/
-.section .container{
+.section .section-container{
     /*border: red 2px;*/
     display: flex;
     justify-content: center;
